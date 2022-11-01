@@ -1,0 +1,57 @@
+body {
+    padding: 0;
+    margin: 0 auto;
+}
+
+.menu {
+    background-color: orange;
+    border-bottom: 1px solid white;
+}
+
+.menu_between {
+    width: 800px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu_between>h2 {
+    color: white;
+}
+
+
+.menu>h2 {
+    padding: 0;
+    margin: 0;
+    padding-left: 50px;
+    margin-top: 10px;
+}
+
+.main_menu>ul {
+    list-style: none;
+    display: flex;
+    background-color: rgb(255, 208, 0);
+    margin: 0;
+}
+
+.main_menu>ul>li {
+    padding: 5px;
+}
+
+.main_menu>ul>li>a {
+    text-decoration: none;
+    color: white;
+}
+
+.main_menu>ul>li:hover {
+    background-color: white;
+}
+
+.main_menu>ul>li>a:hover {
+    color: red;
+}
+
+.main_page {
+    background-image: url('./images/gioithieu-background.png');
+    background-size: cover;
+    height: 500px;
+}
